@@ -272,7 +272,7 @@ function App() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Data & Analytics</h3>
               </div>
               <ul className="space-y-2 text-gray-600 dark:text-gray-400">
-                <li>• SQL, PostgreSQL</li>
+                <li>• SQL, PostgreSQL, XML</li>
                 <li>• Power BI, Excel (Advanced)</li>
                 <li>• Data Pipelines</li>
                 <li>• Power Query, Visio</li>
@@ -629,33 +629,32 @@ function App() {
               </div>
             </div>
 
-            {/* REST API Development */}
+            {/* Looprix - Programming Practice Game */}
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2 hover:scale-105">
               <div className="p-6">
                 <div className="flex items-center mb-4">
                   <Code className="text-portfolio-green-500 mr-3" size={32} />
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Flask Task Management API</h3>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">Looprix - Programming Practice Game</h3>
                 </div>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  Product-style Flask REST API with GET/POST endpoints for task management. 
-                  Built to practice API design, testing methodologies, and backend workflow optimization patterns.
+                  A gamified platform designed to help users learn and master programming best practices through interactive challenges and exercises.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="px-3 py-1 bg-portfolio-lavender-100 dark:bg-portfolio-lavender-900 text-portfolio-lavender-700 dark:text-portfolio-lavender-300 rounded-full text-sm">
-                    Flask
+                    FastAPI
                   </span>
                   <span className="px-3 py-1 bg-portfolio-lavender-100 dark:bg-portfolio-lavender-900 text-portfolio-lavender-700 dark:text-portfolio-lavender-300 rounded-full text-sm">
-                    REST API
+                    PostgreSQL
                   </span>
                   <span className="px-3 py-1 bg-portfolio-lavender-100 dark:bg-portfolio-lavender-900 text-portfolio-lavender-700 dark:text-portfolio-lavender-300 rounded-full text-sm">
-                    API Testing
+                    SQLAlchemy
                   </span>
-                  <span className="px-3 py-1 bg-portfolio-lavender-100 dark:bg-portfolio-lavender-900 text-portfolio-lavender-700 dark:text-portfolio-lavender-300 rounded-full text-sm">
-                    Backend Design
+                   <span className="px-3 py-1 bg-portfolio-lavender-100 dark:bg-portfolio-lavender-900 text-portfolio-lavender-700 dark:text-portfolio-lavender-300 rounded-full text-sm">
+                    Python
                   </span>
                 </div>
                 <div className="text-sm text-portfolio-green-600 dark:text-portfolio-green-400 font-medium mb-4">
-                  Status: API Live & Tested
+                  Status: In Development
                 </div>
               </div>
             </div>
