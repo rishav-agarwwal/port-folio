@@ -272,8 +272,8 @@ function App() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Data & Analytics</h3>
               </div>
               <ul className="space-y-2 text-gray-600 dark:text-gray-400">
-                <li>• SQL, PostgreSQL, XML</li>
-                <li>• Power BI, Excel (Advanced)</li>
+                <li>• SQL, PostgreSQL</li>
+                <li>• Power BI, Excel (Advanced), XML</li>
                 <li>• Data Pipelines</li>
                 <li>• Power Query, Visio</li>
               </ul>
